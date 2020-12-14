@@ -11,6 +11,8 @@ public class PhoneApp {
 
 	public static void main(String[] args) throws IOException {
 		
+		//미완성
+		
 		Reader fr = new FileReader("C:\\javaStudy\\강의자료\\02.Java_Programming\\미니프로젝트\\PhoneDB.txt");
 		BufferedReader br = new BufferedReader(fr);
 		ArrayList<Person> pList = new ArrayList<Person>();
