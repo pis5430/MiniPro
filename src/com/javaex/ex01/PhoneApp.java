@@ -90,8 +90,6 @@ public class PhoneApp {
 				String name = sc.nextLine();
 
 				for (int i = 0; i < person.size(); i++) {
-					
-					// >> 포함 여부만을 true, false로 반환
 					if (person.get(i).getName().contains(name)) { 
 						person.get(i).showInfo();
 					//contains() 대상 문자열에 특정 문자열이 포함되어 있는지 확인하는 함수 , 대소문자도 구분
